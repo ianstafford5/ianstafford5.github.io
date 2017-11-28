@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Responsive Resume/CV／Portfolio Template</title>
+    <!-- Meta -->
+
+ 
+   <!-- Global CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="styles.css">
+
+</head> 
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+     
+	<div id="loader-wrapper">
+		<div id="loader"  class="scaling-svg">
+		<svg class="scaling-svg" viewBox="0 0 860 250">
+			<symbol id="web-coderskull">
+				<text text-anchor="middle" x="50%" y="70%">Ian Stafford</text>
+			</symbol>
+
+			<g class = "webcoderskull">
+				<use xlink:href="#web-coderskull" class="web-coder-skull"></use>
+				<use xlink:href="#web-coderskull" class="web-coder-skull"></use>
+				<use xlink:href="#web-coderskull" class="web-coder-skull"></use>
+				<use xlink:href="#web-coderskull" class="web-coder-skull"></use>
+				<use xlink:href="#web-coderskull" class="web-coder-skull"></use>
+			</g>
+		</div>
+
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+
+	</div>
+
+    <header class="header thetop">
+        <div class="top-bar container-fluid" id="top-bar">
+            <div class="actions">
+                <a type="button" class="btn d-none d-md-inline-block hvr-grow hvr-fade" data-toggle="modal" data-target="#myModal"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact Me</a>
+				<a class="btn hvr-grow hvr-fade" href="#"><i class="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
+            </div><!--//actions-->
+            <ul class="social list-inline">
+               <li class="list-inline-item"><a href="https://www.facebook.com/ian.stafford.188" target="_blank"><i class="fa fa-facebook hvr-float" aria-hidden="true"></i></a></li>
+               <li class="list-inline-item"><a href="https://www.linkedin.com/in/ian-stafford-242976b3/" target="_blank"><i class="fa fa-linkedin hvr-float" aria-hidden="true"></i></a></li>
+               <li class="list-inline-item"><a href="https://www.instagram.com/ianardo_davinci/" target="_blank"><i class="fa fa-instagram hvr-float" aria-hidden="true"></i></a></li>
+               <li class="list-inline-item"><a href="https://github.com/ianstafford5" target="_blank"><i class="fa fa-github hvr-float" aria-hidden="true"></i></a><li>
+            </ul><!--//social-->
+        </div><!--//top-bar--> 
+        
+        <div class="intro">
+            <div class="container text-center">
+                <img src="https://www.shoppersshop.com/2017pics/zac-efron-hugo-man-headshot.jpg" class="img-circle profile-image" alt="Cinque Terre" width="200" height="200"> 
+                <h1 class="name">Ian Stafford</h1>
+                <div class="title">Sofware Engineer</div>
+                <div class="profile">
+                    <p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
+                </div><!--//profile-->
+            </div><!--//container-->
+        </div><!--//intro-->
+        
+        <div class="contact-info">
+            <div class="container text-center">
+                <ul class="list-inline">
+                    <li class="email list-inline-item"><i class="fa fa-envelope"></i><a href="mailto:someone@example.com">ianstafford5@gmail.com</a></li>
+                    <li class="list-inline-item"><i class="fa fa-phone"></i> <a href="tel: 0123456789">085 757 0555</a></li>
+                    <li class="website list-inline-item"><i class="fa fa-globe"></i><a href="#" target="_blank">portfoliosite.com</a></li>
+                </ul>
+            </div><!--//container-->
+        </div><!--//contact-info-->
+        
+		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="700" style = "background-color: #00BCD4;" id ="BB-nav">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>                        
+			  </button>
+			  <a class="navbar-brand" href="#">Ian Stafford</a>
+			</div>
+			<div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav BB-nav">
+				  <li><a href="#section1">Section 1</a></li>
+				  <li><a href="#section2">Section 2</a></li>
+				  <li><a href="#section3">Section 3</a></li>
+				</ul>
+				<form class="navbar-form navbar-right">
+			  <div class="input-group">
+				<input type="text" class="form-control" placeholder="Search">
+				<div class="input-group-btn">
+				  <button class="btn btn-default" type="submit">
+					<i class="glyphicon glyphicon-search"></i>
+				  </button>
+				</div>
+			  </div>
+			</form>
+			  </div>
+			</div>
+		  </div>
+		</nav>
+		<div class='scrolltop'>
+			<div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+		</div>    
+    </header><!--//header-->
+    
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Contact Ian</h4>
+			</div>
+			<div class="modal-body">
+				<form  onSubmit="alert('Thank you, your message has been sent successfully!.');">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" class="form-control" placeholder="Enter name" required="required" />
+							</div>
+							<div class="form-group">
+								<label for="name">Email</label>
+								<input type="email" class="form-control" placeholder="Enter email" required="required" />
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="name">Message</label>
+								<textarea name="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<button type="submit" class="btn btn-primary pull-right">Send Message</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+    <div class="wrapper container">
+        <section id="section1" class="experiences-section section">
+            <h1 class="section-title">Work Experiences</h1>
+            <div class="panel-group timeline">
+				<div class="timeline-item">
+					<div class="timeline-year">
+						<span class="timeline-year">Feb 2017 - Aug 2017</span>
+					</div>
+					<!-- //.timeline-year -->
+
+					<div class="timeline-btn">
+						<a href="#exp1" data-toggle="collapse" data-parent="#experience"></a>
+					</div>
+					<!-- //.timeline-btn -->
+
+					<div class="panel">
+						<a href="#exp1" data-toggle="collapse" data-parent="#experience"><span class = "link"></span></a>
+						<div class="panel-heading">
+							<div class="panel-title">
+								<img src="images/baml.png" alt="BAML logo" height="50" width="200px">
+								<h4>Software Developer Intern - Bank of America Merrill Lynch</h4>
+								<h5><i class="fa fa-map-marker" aria-hidden="true"></i> Park Place, Hatch Street, Dublin 2, Ireland</h5>
+							</div>
+							<!-- //.panel-title -->
+						</div>
+						<!-- //.panel-heading -->
+
+						<div id="exp1" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<p>
+									Responsibilities:
+									<br>
+									- Workspace setup with all OOTB Endeca features 
+									- Customized OOTB features based on requirements
+									- BCC merchandizing workflow
+									- Custom components created to use Assembler API's for content Item, content collections, static content & Guided search services
+									- Indexed data using PSOC configurations
+									- Designed and developed search,browse and product pages
+									- Extensively used Experience Manager
+									- Created custom cartridges and templates
+									- Custom cartridge handlers and property accessors 
+									- Used Endeca SEO & Site-map generator framework with customized configurations                                              
+								</p>
+							</div>
+							<!-- //.panel-body -->
+						</div>
+						<!-- //.panel-collapse -->
+					</div>
+					<!-- //.panel -->
+				</div>
+				<!-- //.timeline-item -->
+
+				<div class="timeline-item animated bounceInUp">
+					<div class="timeline-year">
+						<span class="timeline-year">Aug 2016 - Jan 2017</span>
+					</div>
+					<!-- //.timeline-year -->
+
+					<div class="timeline-btn">
+						<a href="#exp2" class="collapsed" data-toggle="collapse" data-parent="#experience" aria-expanded="true"></a>
+					</div>
+					<!-- //.timeline-btn -->
+
+					<div class="panel">
+						<a href="#exp2" data-toggle="collapse" data-parent="#experience"><span class = "link"></span></a>
+						<div class="panel-heading">
+							<div class="panel-title">
+								<img src="images/bax.png" alt="Baxterstorey logo" height="50" width="200px">
+								<h4>Catering Assistant - Baxterstorey</h4>
+								<h5><i class="fa fa-map-marker" aria-hidden="true"></i> Dublin Zoo, Phoenix Park, Dublin 8, Ireland</h5>
+							</div>
+							<!-- //.panel-title -->
+						</div>
+						<!-- //.panel-heading -->
+
+						<div id="exp2" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>
+									Technologies Worked On:
+									<br>                                          
+									Oracle Endeca Assembler API, Oracle Endeca Experience Manager, Oracle Endeca Guided Search, Oracle Endeca Presentation API (Both .NET & Java), Oracle Autovue, Oracle Endeca Content Acquisition System, Oracle Endeca Information Discovery Studio,Advanced Java Development with Liferay Portal, .NET Development for standalone Endeca Applications using Endeca .NET API
+								</p>
+							</div>
+							<!-- //.panel-body -->
+						</div>
+						<!-- //.panel-collapse -->
+					</div>
+					<!-- //.panel -->
+				</div>
+				<!-- //.timeline-item -->
+
+				<div class="timeline-item animated bounceInUp">
+					<div class="timeline-year">
+						<span class="timeline-year">Mar 2015 - Aug 2015</span>
+					</div>
+					<!-- //.timeline-year -->
+
+					<div class="timeline-btn">
+						<a href="#exp3" class="collapsed" data-toggle="collapse" data-parent="#experience"></a>
+					</div>
+					<!-- //.timeline-btn -->
+
+					<div class="panel">
+						<a href="#exp3" data-toggle="collapse" data-parent="#experience"><span class = "link"></span></a>
+						<div class="panel-heading">
+							<div class="panel-title">
+								<img src="images/greenh.png" alt="Green Isle Hotel logo" height="80" width="200px">
+								<h4>Bar Staff - Green Isle Hotel Conference & Leisure</h4>
+								<h5><i class="fa fa-map-marker" aria-hidden="true"></i> Naas Road, Newlands Cross, Dublin 22, Ireland</h5>
+							</div>
+							<!-- //.panel-title -->
+						</div>
+						<!-- //.panel-heading -->
+
+						<div id="exp3" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>
+									Technologies Worked On:
+									<br>                                               
+								  Oracle Endeca Guided Search, Oracle Endeca Presentation API, Oracle Autovue, Oracle Endeca Content Acquisition System, 
+								</p>
+							</div>
+							<!-- //.panel-body -->
+						</div>
+						<!-- //.panel-collapse -->
+					</div>
+					<!-- //.panel -->
+				</div>
+				<!-- //.timeline-item -->
+
+				<div class="timeline-item animated bounceInUp">
+					<div class="timeline-year">
+						<span class="timeline-year">Oct 2014 - Dec 2014</span>
+					</div>
+					<!-- //.timeline-year -->
+
+					<div class="timeline-btn">
+						<a href="#exp4" class="collapsed" data-toggle="collapse" data-parent="#experience"></a>
+					</div>
+					<!-- //.timeline-btn -->
+
+					<div class="panel">
+						<a href="#exp4" data-toggle="collapse" data-parent="#experience"><span class = "link"></span></a>
+						<div class="panel-heading">
+							<div class="panel-title">
+								<img src="images/dunnes.jpg" alt="Dunnes Stores logo" height="80" width="200px">
+								<h4>Sales Assistant - Dunnes Stores</h4>
+								<h5><i class="fa fa-map-marker" aria-hidden="true"></i> The Mill Shopping Centre, Ninth Lock Road, Clondalkin, Dublin 22</h5>
+							</div>
+							<!-- //.panel-title -->
+						</div>
+						<!-- //.panel-heading -->
+
+						<div id="exp4" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>
+									Responsibilities:
+									<br>
+									Advanced Java Developer, 
+									Front End View Editing, 
+									Intervowen Teamsite Template creation,
+									Minor Pipeline Changes in Endeca IAP Developer Studio, 
+									Creating crawls, troubleshooting crawl failures, improving crawl performance using Endeca Content Acquisition System
+								</p>
+							</div>
+							<!-- //.panel-body -->
+						</div>
+						<!-- //.panel-collapse -->
+					</div>
+					<!-- //.panel -->
+				</div>
+				<!-- //.timeline-item -->
+				
+				<div class="timeline-item animated bounceInUp">
+					<div class="timeline-year">
+						<span class="timeline-year">Aug 2014 - Oct 2014</span>
+					</div>
+					<!-- //.timeline-year -->
+
+					<div class="timeline-btn">
+						<a href="#exp5" class="collapsed" data-toggle="collapse" data-parent="#experience"></a>
+					</div>
+					<!-- //.timeline-btn -->
+
+					<div class="panel">
+						<a href="#exp5" data-toggle="collapse" data-parent="#experience"><span class = "link"></span></a>
+						<div class="panel-heading">
+							<div class="panel-title">
+								<img src="images/cw.png" alt="Dunnes Stores logo" height="100" width="100px">
+								<h4>Bar Staff - Citywest Hotel Conference & Event Centre</h4>
+								<h5><i class="fa fa-map-marker" aria-hidden="true"></i> Saggart, Co. Dublin</h5>
+							</div>
+							<!-- //.panel-title -->
+						</div>
+						<!-- //.panel-heading -->
+
+						<div id="exp5" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>
+									Responsibilities:
+									<br>
+									Advanced Java Developer, 
+									Front End View Editing, 
+									Intervowen Teamsite Template creation,
+									Minor Pipeline Changes in Endeca IAP Developer Studio, 
+									Creating crawls, troubleshooting crawl failures, improving crawl performance using Endeca Content Acquisition System
+								</p>
+							</div>
+							<!-- //.panel-body -->
+						</div>
+						<!-- //.panel-collapse -->
+					</div>
+					<!-- //.panel -->
+				</div>
+				<!-- //.timeline-item -->
+			</div>
+            
+        </section><!--//section-->
+        
+        <section id="section2" class="education-section section">
+            <h2 class="section-title">Education</h2>
+			  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapse1">
+        <img src="images/itt.jpg" alt="ITT crest" height="90" width="200px">
+		<h1 class="panel-title">ITT Dublin, Institute of Technology Tallaght <i class="more-less fa fa-angle-up" aria-hidden="true"></i></h1>
+        <h4><i class="fa fa-map-marker" aria-hidden="true"></i> Tallaght, Dublin 24, Ireland.</h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <br>
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#Year4">Fourth Year</a></li>
+            <li><a data-toggle="tab" href="#Year3">Third Year</a></li>
+            <li><a data-toggle="tab" href="#Year2">Second Year</a></li>
+            <li><a data-toggle="tab" href="#Year1">First Year</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="Year4" class="tab-pane fade in active">
+              <h4> GPA: </h4>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4th Year Project</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Enterprise Applications Development 1</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Information Management</td>
+                    <td>-</td>
+                  </tr>
+                        <tr>
+                    <td>Interactive Media Design</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Social Media Analysis</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Enterprise Performance Architecture</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+            </table>
+            </div>
+            <div id="Year3" class="tab-pane fade">
+              <h4> GPA: </h4>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4th Year Project</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Enterprise Applications Development 1</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Information Management</td>
+                    <td>-</td>
+                  </tr>
+                        <tr>
+                    <td>Interactive Media Design</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Social Media Analysis</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Enterprise Performance Architecture</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+             </table>    
+            </div>
+            <div id="Year2" class="tab-pane fade">
+                    <h4> GPA: </h4>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4th Year Project</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Enterprise Applications Development 1</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Information Management</td>
+                    <td>-</td>
+                  </tr>
+                        <tr>
+                    <td>Interactive Media Design</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Social Media Analysis</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Enterprise Performance Architecture</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="Year1" class="tab-pane fade">
+                    <h4> GPA: </h4>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>4th Year Project</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Enterprise Applications Development 1</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Information Management</td>
+                    <td>-</td>
+                  </tr>
+                        <tr>
+                    <td>Interactive Media Design</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Social Media Analysis</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Enterprise Performance Architecture</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapse2">
+        <img src="images/hfcs.png" alt="HFCS Crest" height="90" width="60">
+		<h1 class="panel-title">Holy Family Community School <i class="more-less fa fa-angle-down" aria-hidden="true"></i></h1>
+        <h4><i class="fa fa-map-marker" aria-hidden="true"></i> Kilteel Road, Rathcoole, Co.Dublin, Ireland.</h4>      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3">
+        <img src="images/shs.png" alt="SHS Crest" height="90" width="80">
+		<h1 class="panel-title">Scoil an Chroí Ró-Naofa <i class="more-less fa fa-angle-down" aria-hidden="true"></i></h1>
+        <h4><i class="fa fa-map-marker" aria-hidden="true"></i> Sacred Heart School, Sruleen, Clondalkin, Dublin 22, Ireland.</h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+  </div> 
+        </section><!--//section-->
+        
+        
+        <section id="skills-section" class="skills-section section text-center">
+            <h2 class="section-title">Professional Skills</h2>
+            
+            
+        </section><!--//skills-section-->
+        
+        <section id="testimonials-section" class="testimonials-section section">
+            <h2 class="section-title">Testimonials</h2>
+            
+            <div id="testimonials-carousel" class="testimonials-carousel carousel slide" data-interval="8000">
+                
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimonials-carousel" data-slide-to="1"></li>
+                    <li data-target="#testimonials-carousel" data-slide-to="2"></li>
+                </ol>
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                        <blockquote class="quote">      
+                            <i class="fa fa-quote-left"></i>                            
+                            <p>James is an excellent software engineer and he is passionate about what he does. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse porttitor metus eros.</p>
+                        </blockquote>    
+                        <div class="source">
+                            <div class="name">Rob Olson</div>
+                            <div class="position">Product Manager, Apple</div>
+                        </div><!--//source-->   
+                                                       
+                    </div><!--//item-->
+                    <div class="item carousel-item">
+                        <blockquote class="quote">
+                            <p><i class="fa fa-quote-left"></i>
+                            Sed massa leo, aliquet non velit eu, volutpat vulputate odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse porttitor metus eros, ut fringilla nulla auctor a.</p>
+                            
+                        </blockquote>
+                        <div class="source">
+                            <div class="name">Christina Jensen</div>
+                            <div class="position">Senior Developer, Twitter</div>
+                        </div><!--//source-->   
+               
+                    </div><!--//item-->
+                    <div class="item carousel-item">
+                        <blockquote class="quote">
+                            <p><i class="fa fa-quote-left"></i>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                        </blockquote>       
+                        <div class="source">
+                            <div class="name">Austin Ward</div>
+                            <div class="position">CEO, Startup Hub</div>
+                        </div><!--//source-->          
+                    </div><!--//item-->
+                    
+                </div><!--//carousel-inner-->
+            </div><!--//testimonials-carousel-->
+            
+        </section><!--//section-->
+        
+        
+        <section id="portfolio-section" class="portfolio-section section">
+            <h2 class="section-title">Portfolio</h2>
+            
+			
+            
+        </section><!--//section-->
+        
+        <section id="contact-section" class="contact-section section">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="intro">
+                <img class="profile-image" src="assets/images/profile-image.png" alt="">
+                <div class="dialog">
+                    <p>I'm currently taking on freelance work. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                    <p><strong>I can help with the following:</strong></p>
+                    <ul class="list-unstyled service-list">
+                        <li><i class="fa fa-check" aria-hidden="true"></i> App development with ReactJS</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Front-end development with AngularJS</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Back-end development with Django/Python</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> UI development</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> UX prototyping</li>
+                    </ul>
+                    <p>Drop me a line at <a href="mailto:someone@example.com">james.doe@website.com</a> or call me at <a href="tel:01234567890">0123 456 7890</a></p>
+                    <ul class="social list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                    </ul><!--//social-->
+                </div><!--//diaplog-->
+            </div><!--//intro-->
+
+        </section><!--//section-->
+        
+    </div><!--//wrapper-->
+    
+    <footer class="footer text-center">
+        <div class="container">
+            <small class="copyright">Template Copyright @ <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+        </div><!--//container-->
+    </footer>
+        
+    <!-- Javascript -->          
+	<script src="app.js"></script> 
+    
+
+</body>
+</html> 
+
